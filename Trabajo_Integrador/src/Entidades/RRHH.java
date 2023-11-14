@@ -8,6 +8,7 @@ public class RRHH {
     
     public static void bajaTecnico(){
         
+        
     }
     
     public static void modificarTecnico(){
