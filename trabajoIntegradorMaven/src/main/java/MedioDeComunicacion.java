@@ -1,6 +1,6 @@
 package Entidades;
 
 enum MedioDeComunicacion {
-    Gmail,
+    Correo,
     WhatsApp;
 }

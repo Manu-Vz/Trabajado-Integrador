@@ -2,16 +2,16 @@ package Entidades;
 
 public class RRHH {
     
-    public static void altaTecnico(){
+    public static void altaTecnico(Tecnico tecnico){
         
     }
     
-    public static void bajaTecnico(){
+    public static void bajaTecnico(Tecnico tecnico){
         
         
     }
     
-    public static void modificarTecnico(){
+    public static void modificarTecnico(Tecnico tecnico){
         
     }
     
