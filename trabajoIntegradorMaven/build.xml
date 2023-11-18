@@ -7,7 +7,7 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="Trabajo_Integrador" default="default" basedir=".">
+<project name="Trabajo_Integrador" default="default" basedir="../Trabajo_Integrador">
     <description>Builds, tests, and runs the project Trabajo_Integrador.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
