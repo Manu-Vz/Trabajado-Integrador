@@ -1,8 +1,10 @@
 package Programa;
 
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
+@RequiredArgsConstructor
 public class Tecnico {
     private int id;
     private int DNI;

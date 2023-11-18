@@ -1,9 +1,7 @@
 package Programa;
 
 import java.util.List;
-import lombok.Data;
 
-@Data
 public class MesaDeAyuda {
     
     public static void SolicitarDataCliente(Cliente cliente){
