@@ -6,7 +6,7 @@ Grupo: 7.
 
 Integrantes:
 -Manuel Vasquez.
--Julio Cesar.
+-Julio Silveros.
 -Franco Guzman.
 -Raul Arriesta.
 -Augusto Rosso.
