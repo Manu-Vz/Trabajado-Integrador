@@ -1,10 +1,12 @@
-package Entidades;
+package org.example;
 
 import java.util.List;
+import lombok.Data;
 
+@Data
 public class MesaDeAyuda {
     
-    public static void SolicitarDatosCliente(Cliente cliente){
+    public static void SolicitarDataCliente(Cliente cliente){
         
     }
     
@@ -18,15 +20,15 @@ public class MesaDeAyuda {
         return null;
     }
     
-    public static void AsignarUnTecnico(Tecnico tecnico){
+    public static void AsignarTecnico(Tecnico tecnico){
         
     }
-    
-    public static void asignarIncidente(Tecnico tecnico, Incidente incidente){
-        
+
+    public static void InformarCliente(Cliente cliente){
+
     }
     
-    public static void EnviarNotificacion(Cliente cliente){
+    public static void InformarClienteEstadoIncidente(Cliente cliente, Incidente incidente){
         
     }
     

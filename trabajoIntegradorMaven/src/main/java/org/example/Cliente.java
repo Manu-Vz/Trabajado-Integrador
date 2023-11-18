@@ -1,5 +1,8 @@
-package Entidades;
+package org.example;
 
+import lombok.Data;
+
+@Data
 public class Cliente {
     private Incidente incidente;
     private String razonSocial;

@@ -1,4 +1,4 @@
-package Entidades;
+package org.example;
 
 enum MedioDeComunicacion {
     Correo,

@@ -1,5 +1,8 @@
-package Entidades;
+package org.example;
 
+import lombok.Data;
+
+@Data
 public class RRHH {
     
     public static void altaTecnico(Tecnico tecnico){

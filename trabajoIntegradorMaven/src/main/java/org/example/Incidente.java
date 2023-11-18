@@ -1,7 +1,9 @@
-package Entidades;
+package org.example;
 
 import java.time.LocalDate;
+import lombok.Data;
 
+@Data
 public class Incidente extends Especialidad{
     private int id;
     private LocalDate fecha;

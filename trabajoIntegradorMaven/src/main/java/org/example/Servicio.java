@@ -1,3 +1,8 @@
+package org.example;
+
+import lombok.Data;
+
+@Data
 public class Servicio {
     private int idServicio;
     private String nombreServicio;

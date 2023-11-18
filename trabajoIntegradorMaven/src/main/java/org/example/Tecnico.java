@@ -1,5 +1,8 @@
-package Entidades;
+package org.example;
 
+import lombok.Data;
+
+@Data
 public class Tecnico {
     private int id;
     private int DNI;
@@ -9,8 +12,15 @@ public class Tecnico {
     private MedioDeComunicacion contacto;
     private Incidente incidente;
     
-    
-    
+
+
+    public void InformarEstadoCliente(){
+
+    }
+
+    public void cambiarestadoincidente(){
+
+    }
     
     
 }
