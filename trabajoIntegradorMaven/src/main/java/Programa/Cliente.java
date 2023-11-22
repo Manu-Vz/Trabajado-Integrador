@@ -13,18 +13,25 @@ public class Cliente {
     private ArrayList<Servicio> servicios = new ArrayList<>();
 
 
-    public void agregarServicio(){
+    public void agregarServicio(Servicio servicio){
+
+        servicios.add(servicio);
+
+        /*
         Servicio SoporteMacOs = new Servicio();
         Servicio soporteWindows = new Servicio();
         Servicio soporteLinux = new Servicio();
+         */
 
-        servicios.add(Soporr);
+        //servicios.add(Soporr);
 
-
+/*
         public void agregarPartido(Partido partido)
         {
             partidos.add(partido);
         }
+
+ */
 
     }
 

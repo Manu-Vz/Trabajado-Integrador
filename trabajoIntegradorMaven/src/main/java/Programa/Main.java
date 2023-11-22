@@ -1,8 +1,5 @@
 package Programa;
 
-import lombok.Data;
-import lombok.Setter;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -16,6 +13,39 @@ public class Main {
     cliente1.setCUIT("2323-223-23232");
 
     System.out.println("DNI tecnico " + tec1.getDNI() + " cliente " + cliente1.getRazonSocial());
-    cliente1.setServicios();
+    cliente1.agregarServicio(new Servicio("nombreObligatorioServicioDebidoAFinalLombok"));
+
+
+
+        crearEmpresa();
+
+        Empresa empresa = new Empresa();
+
+        Servicio soporteMacOs = new Servicio("Soporte MacOS");
+        Servicio soporteWindows = new Servicio("Soporte Windows");
+        Servicio soporteLinux = new Servicio("Soporte Linux");
+
+        empresa.agregarServicio(soporteLinux);
+        empresa.agregarServicio(soporteWindows);
+        empresa.agregarServicio(soporteMacOs);
+
+
+        empresa.listarServiciosEmpresa();
+
+
+
+
+
+
+
     }
+
+
+
+    public static void crearEmpresa(){
+        Empresa empresa = new Empresa();
+    }
+
+
+
 }

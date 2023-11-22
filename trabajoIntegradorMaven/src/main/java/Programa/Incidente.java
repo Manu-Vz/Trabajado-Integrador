@@ -2,10 +2,12 @@ package Programa;
 
 import java.time.LocalDate;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
+//@NoArgsConstructor
 public class Incidente extends Especialidad{
     private int id;
     private LocalDate fecha;

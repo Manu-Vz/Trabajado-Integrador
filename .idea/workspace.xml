@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Incidente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/MedioDeComunicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/MedioDeComunicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Tecnico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Servicio.java" afterDir="false" />
     </list>
     <list id="a6757364-4f95-4408-93f4-e9bbcbdcf380" name="Changes by manuv" comment="" />
-    <list id="c33599fc-1955-4eef-8620-69f1ab897f30" name="Changes by Ulrra" comment="">
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Main.java" afterDir="false" />
-    </list>
+    <list id="c33599fc-1955-4eef-8620-69f1ab897f30" name="Changes by Ulrra" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,29 +32,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Main.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="4" changelist="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" />
-        <range start1="6" end1="8" start2="7" end2="7" changelist="c33599fc-1955-4eef-8620-69f1ab897f30" />
-        <range start1="9" end1="9" start2="8" end2="20" changelist="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/trabajoIntegradorMaven/pom.xml">
-      <ranges>
-        <range start1="18" end1="18" start2="18" end2="24" changelist="c33599fc-1955-4eef-8620-69f1ab897f30" />
-        <range start1="20" end1="21" start2="26" end2="30" changelist="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Cliente.java">
-      <ranges>
-        <range start1="4" end1="4" start2="4" end2="5" changelist="c33599fc-1955-4eef-8620-69f1ab897f30" />
-        <range start1="11" end1="12" start2="12" end2="14" changelist="c33599fc-1955-4eef-8620-69f1ab897f30" />
-        <range start1="13" end1="13" start2="15" end2="31" changelist="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" />
-        <range start1="15" end1="16" start2="33" end2="33" changelist="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -67,23 +43,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/mateo/.jdks/corretto-15.0.2",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mateo\OneDrive\Documentos\Java\Trabajado-Integrador\trabajoIntegradorMaven" />
       <recent name="C:\Users\mateo\OneDrive\Documentos\Java\Trabajado-Integrador\trabajoIntegradorMaven\src" />
       <recent name="C:\Users\mateo\OneDrive\Documentos\Java\Trabajado-Integrador\trabajoIntegradorMaven\src\main" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programa.Main" />
+      <module name="trabajoIntegradorMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
