@@ -3,24 +3,24 @@ package Programa;
 import java.time.LocalDate;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 @Data
 @RequiredArgsConstructor
-//@NoArgsConstructor
-public class Incidente extends Especialidad{
+public class Incidente {
     private int id;
     private LocalDate fecha;
     private boolean estado;
     private String consideraciones;
     private final double tiempoDeResolucion;
 
-    public Incidente(int id, LocalDate fecha, boolean estado, String consideraciones, double tiempoDeResolucion) {
-        this.fecha = fecha;
-        this.estado = estado;
-        this.consideraciones = consideraciones;
-        this.tiempoDeResolucion = tiempoDeResolucion;
-    }
+//    public Incidente(int id, LocalDate fecha, boolean estado, String consideraciones, double tiempoDeResolucion) {
+//        this.fecha = fecha;
+//        this.estado = estado;
+//        this.consideraciones = consideraciones;
+//        this.tiempoDeResolucion = tiempoDeResolucion;
+//    }
     
     
     

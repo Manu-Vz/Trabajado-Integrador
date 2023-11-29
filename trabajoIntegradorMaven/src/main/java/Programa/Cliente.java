@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.ArrayList;
 
 @Data
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 public class Cliente {
     private Incidente incidente;
     private String razonSocial;
@@ -17,24 +17,12 @@ public class Cliente {
 
         servicios.add(servicio);
 
-        /*
-        Servicio SoporteMacOs = new Servicio();
-        Servicio soporteWindows = new Servicio();
-        Servicio soporteLinux = new Servicio();
-         */
-
-        //servicios.add(Soporr);
-
-/*
-        public void agregarPartido(Partido partido)
-        {
-            partidos.add(partido);
-        }
-
- */
-
     }
 
+    public void devolverListadoServiciosContratados(){
 
+        //forEach
+
+    }
 
 }
