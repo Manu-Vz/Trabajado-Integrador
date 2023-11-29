@@ -1,5 +1,7 @@
 package Programa;
 
+import java.util.List;
+
 public class TipoProblema {
     private String nombre;
     private String descripcion;
@@ -9,6 +11,12 @@ public class TipoProblema {
     //CONSTRUCTORES//
     public TipoProblema(){}
 
+    public TipoProblema(String nombre, String descripcion, int tiempoMaximoDeResolucion, List<Especialidad> especialidades) {
+        this.nombre = nombre;
+        this.descripcion = descripcion;
+        this.tiempoMaximoDeResolucion = tiempoMaximoDeResolucion;
+        this.especialidades = especialidades;
+    }
     //GETTERS Y SETTERS//
 
     public String getNombre() {

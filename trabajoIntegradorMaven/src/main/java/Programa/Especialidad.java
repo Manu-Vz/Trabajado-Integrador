@@ -10,6 +10,14 @@ class Especialidad {
     private String decripcion;
 
 
+    //CONSTRUCTOR//
+
+
+    public Especialidad(String nombre, String decripcion) {
+        this.nombre = nombre;
+        this.decripcion = decripcion;
+    }
+
     //GETTERS Y SETTERS//
     public String getNombre() {
         return nombre;

@@ -1,58 +1,47 @@
 package Programa;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-
-    datosPruebas();
-
-
-
-
-
+        Especialidad especialidad1 = new Especialidad("Desarrollo de BackEnd", "");
+        Especialidad especialidad2 = new Especialidad("Desarrollo de FrontEnd", "");
+        Especialidad especialidad3 = new Especialidad("Ingenieria en Sistemas", "");
+        Especialidad especialidad4 = new Especialidad("Solo Windows", "");
+        Especialidad especialidad5 = new Especialidad("Limpiador de PS's", "");
 
 
+        List<Especialidad> especialidadesDelTipo1 = new ArrayList<>();
+        especialidadesDelTipo1.add(especialidad1);
+        especialidadesDelTipo1.add(especialidad2);
+        TipoProblema tipo1 = new TipoProblema("Error en Desarrollo", "Bugs", 12,especialidadesDelTipo1);
 
+        List<Especialidad> especialidadesDelTipo2 = new ArrayList<>();
+        especialidadesDelTipo2.add(especialidad1);
+        especialidadesDelTipo2.add(especialidad2);
+        especialidadesDelTipo2.add(especialidad3);
+        TipoProblema tipo2 = new TipoProblema("Error Desconocido", "Pantalla en negro", 124,especialidadesDelTipo2);
 
+        List<Especialidad> especialidadesDelTipo3 = new ArrayList<>();
+        especialidadesDelTipo3.add(especialidad4);
+        especialidadesDelTipo3.add(especialidad5);
+        TipoProblema tipo3 = new TipoProblema("Error Desconocido", "Pantalla en negro", 124,especialidadesDelTipo3);
 
-        //    Ejemplo de forEach
-//    // forEach <-> Lambda Expression
-//    // ref: https://www.arquitecturajava.com/java-8-lambda-y-foreach-ii/
-//    public void listarServiciosEmpresa() {
-//        serviciosEmpresa.forEach((Servicio servicio) -> System.out.println(servicio.getNombreServicio()));
-//    }
+        List<TipoProblema> problemasDeLinux = new ArrayList<>();
+        problemasDeLinux.add(tipo2);
+        problemasDeLinux.add(tipo2);
+        Servicio Linux = new Servicio("Linux", "", problemasDeLinux);
 
+        List<TipoProblema> problemasDeWindows = new ArrayList<>();
+        problemasDeWindows.add(tipo3);
+        Servicio Windows = new Servicio("Windows", "", problemasDeWindows);
 
+        Cliente Juan = new Cliente("1111111","76123761235");
+        Juan.agregarServicio(Windows);
+        Juan.agregarServicio(Linux);
 
-
-
-
-
-    }
-
-
-
-    public static void datosPruebas(){
-
-        Tecnico tec1 = new Tecnico(){};
-        Cliente cliente1 = new Cliente();
-
-        tec1.setDni(44721215);
-
-        cliente1.setRazonSocial("S");
-        cliente1.setCUIT("2323-223-23232");
-
-        System.out.println("DNI tecnico " + tec1.getDni() + " cliente " + cliente1.getRazonSocial());
-        cliente1.agregarServicio(new Servicio("nombreObligatorioServicioDebidoAFinalLombok"));
-
-
-        Servicio soporteMacOs = new Servicio("Soporte MacOS");
-        Servicio soporteWindows = new Servicio("Soporte Windows");
-        Servicio soporteLinux = new Servicio("Soporte Linux");
-
-
-
-
-
+        Juan.notificarIncidente(Juan.getServicios().get(1));
 
 
 
@@ -60,7 +49,4 @@ public class Main {
 
 
     }
-
-
-
 }
