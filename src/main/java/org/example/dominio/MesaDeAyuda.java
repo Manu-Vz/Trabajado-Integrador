@@ -1,4 +1,4 @@
-/*package org.example.dominio;
+package org.example.dominio;
 
 import java.util.List;
 
@@ -31,4 +31,3 @@ public class MesaDeAyuda {
     }
     
 }
-*/

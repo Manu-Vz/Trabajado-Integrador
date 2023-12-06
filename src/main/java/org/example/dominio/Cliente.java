@@ -1,4 +1,4 @@
-/*package org.example.dominio;
+package org.example.dominio;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
@@ -67,4 +67,3 @@ public class Cliente {
     }
 }
 
- */

@@ -5,40 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f4f73e7-1370-4e1d-8a1f-a993de52ad34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Trabajado-Integrador.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trabajado-Integrador.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/repositorios/EspecialidadRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utilidades/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajoIntegradorMaven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trabajoIntegradorMaven.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/build.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/manifest.mf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/nbproject/build-impl.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/nbproject/genfiles.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/nbproject/project.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/nbproject/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/BaseDeDatos/incidentes.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/CanalDeNotificación.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/CanalDeNotificación.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Especialidad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Especialidad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/EstadoDeIncidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/EstadoDeIncidente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Incidente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/MedioDeComunicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/MedioDeComunicacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/MensajeDeNotificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/MensajeDeNotificacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/MesaDeAyuda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/MesaDeAyuda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Problema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Problema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Servicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Servicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Tecnico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/TiempoEstimadoDeResolucionDeIncidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/TiempoEstimadoDeResolucionDeIncidente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trabajoIntegradorMaven/src/main/java/Programa/TipoProblema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/TipoProblema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Incidente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Incidente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/MensajeDeNotificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/MensajeDeNotificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/MesaDeAyuda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/MesaDeAyuda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Tecnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Tecnico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <list id="a6757364-4f95-4408-93f4-e9bbcbdcf380" name="Changes by manuv" comment="" />
     <list id="c33599fc-1955-4eef-8620-69f1ab897f30" name="Changes by Ulrra" comment="" />
@@ -71,27 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mateo/OneDrive/Documentos/Java/Trabajado-Integrador&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/mateo/OneDrive/Documentos/Java/Trabajado-Integrador",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "CodeWithMe",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mateo\OneDrive\Documentos\Java\Trabajado-Integrador\src\main\java\org\example\repositorios" />
@@ -113,6 +89,8 @@
       <workItem from="1701749191692" duration="1235000" />
       <workItem from="1701750468759" duration="679000" />
       <workItem from="1701751200323" duration="4839000" />
+      <workItem from="1701824270236" duration="407000" />
+      <workItem from="1701828191639" duration="3317000" />
     </task>
     <servers />
   </component>
@@ -129,5 +107,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

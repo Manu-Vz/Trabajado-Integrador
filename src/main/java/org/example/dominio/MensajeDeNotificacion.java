@@ -1,4 +1,4 @@
-/*package org.example.dominio;
+package org.example.dominio;
 
 public class MensajeDeNotificacion {
     private String title;
@@ -16,4 +16,3 @@ public class MensajeDeNotificacion {
         this.incidente = incidente;
     }
 }
-*/

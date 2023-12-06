@@ -9,8 +9,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        cargarDatosDB();
-        //obtenerDatosDB();
+        //cargarDatosDB();
+        obtenerDatosDB();
        /* List<Especialidad> especialidadesDelTipo1 = new ArrayList<>();
         especialidadesDelTipo1.add(especialidad1);
         especialidadesDelTipo1.add(especialidad2);
@@ -41,8 +41,8 @@ public class Main {
         Juan.agregarServicio(Linux);
 
         Juan.notificarIncidente(Juan.getServicios().get(1));
+*/
 
-        */
 
 
 
@@ -76,7 +76,7 @@ public class Main {
 
         EspecialidadRepositorio repoEspecialidad = new EspecialidadRepositorio();
 
-        repoEspecialidad.obtenerTodasLasEspecialidads().forEach(especialidad -> System.out.println(especialidad));
+        repoEspecialidad.obtenerTodasLasEspecialidads().forEach(especialidad -> System.out.println(especialidad.getId()));
 
         repoEspecialidad.terminarConexion();
     }
